@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+  background-color: #d9ddf63e;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between; /* Canh giữa các phần tử theo chiều ngang */
+  align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+  gap: 10px;
+  font-weight :bold
+}
+.logo-be {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.right-content {
+  margin-top: 5px;
+  display: flex; /* Hiển thị các phần tử con theo chiều ngang */
+  align-items: center; /* Canh giữa các phần tử con theo chiều dọc */
+}
+.fa-sharp {
+  margin-right: 4px;
+}
+.banner {
+  display: flex
+}
+.banner-title {
+  background-color: #fff;
+  max-width: 9 0px;
+  font-size: 15px;
+}

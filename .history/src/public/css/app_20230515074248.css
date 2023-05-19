@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.test {
+  color: purple;
+  /* tạo file _variable.scss rồi qua đó đặt tên biến, vô đây import thì có thể dùng đc */ }
+
+.header {
+  color: pink; }
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-left: 4px; }
+
+.badge-danger {
+  background-color: #007bff; }
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff; }
+
+.dropdown-menu {
+  margin-right: 40px; }
+
+.img {
+  width: 590px;
+  height: 500px; }
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center; }
+
+.fa-solid {
+  font-size: 16px; }
+
+.contact {
+  margin-top: -10px; }
+
+.copyright {
+  margin-top: 10px; }

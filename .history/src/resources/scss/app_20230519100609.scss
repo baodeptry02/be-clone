@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body {
+  background-color: #d9ddf683;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.left-content {
+  margin-top: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between; /* Canh giữa các phần tử theo chiều ngang */
+  align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+  gap: 10px;
+  font-weight :bold;
+  align-items: center;
+  background-color: #fff;
+}
+.logo-be {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.right-content {
+  display: flex; /* Hiển thị các phần tử con theo chiều ngang */
+  align-items: center; /* Canh giữa các phần tử con theo chiều dọc */
+}
+.fa-sharp {
+  margin-right: 4px;
+}
+.banner {
+  margin-top: 12px;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; 
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.banner-title {
+  margin-right: 8px;
+  background-color: #fff;
+  padding: 8 12px 8 12px;
+  font-size: 14px;
+  border-radius: 20%;
+  text-align: center;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  /* CSS chỉ dùng cho các thiết bị có độ rộng màn hình tối đa 480px (điện thoại di động) */
+  .banner {
+    max-width: 100vh;
+    flex-wrap: wrap; /* Cho phép các phần tử xuống hàng trên điện thoại */
+    overflow-x: hidden; /* Ẩn thanh cuộn ngang trên điện thoại */
+  }
+}

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+body {
+  background-color: #f3f4f6;
+  margin-top: 20px !important;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.left-content {
+  margin-top: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between; /* Canh giữa các phần tử theo chiều ngang */
+  align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+  gap: 10px;
+  font-weight :bold;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 12px 0 12px;
+}
+.logo-be {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.right-content {
+  display: flex; /* Hiển thị các phần tử con theo chiều ngang */
+  align-items: center; /* Canh giữa các phần tử con theo chiều dọc */
+}
+.fa-sharp {
+  margin-right: 4px;
+}
+.banner {
+  margin-top: 12px;
+  display: flex;
+}
+.banner-title {
+  border: 5px solid #645d5d36;
+  // box-shadow: 1px 1px #645d5d36;
+  margin-right: 8px;
+  background-color: #ffffffa2;
+  padding: 8 12px 8 12px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+}
+@media (max-width: 480px) {
+  /* CSS chỉ dùng cho các thiết bị có độ rộng màn hình tối đa 480px (điện thoại di động) */
+  .banner {
+    max-width: 100vh;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .banner-title {
+    min-width: 120px;
+  }
+}
+.item {
+  background: #fff;
+  margin-bottom: 24px;
+  // box-shadow: 1px 1px 1px 1px #523e3e1e;
+  border: 2px solid #523e3e1e;
+}
+.item-title {
+  font-size: 14px;
+}
+.item-img {
+  max-width: 60px;
+  margin-left: 48px;
+  border-radius: 50%;
+}
+.item-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* mở rộng theo chiều dọc */
+  height: 72px;
+  border-bottom: 2px dashed #26242451; 
+  font-weight: 400;
+}
+.item-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-size: 14px;
+}
+.item-content-button {
+  background-color: #fff;
+  border: 2px solid #3791f1;
+  margin-left: 20px;
+  margin-right: 8px;
+  padding: 4px 32px 4px 32px;
+  border-radius: 0;
+  color: #3791f1;
+  font-weight: 500;
+}
+.item-content-title {
+
+}
+.banner-select {
+  background-color: #080434;
+  color: #fff;
+}
